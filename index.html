@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&family=Rowdies&display=swap');
+        body{
+            height:100vh;
+            width:100vw;
+            font-family: 'Roboto Mono', monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 700px;
+        }
+        .second{
+            display: flex;
+            flex-direction: column;
+        }
+        .btn{
+            padding:10px 10px;
+            background-color: rgb(26, 24, 24);
+            color:white;
+            display: inline-block;
+            text-align: center;
+            border: none;
+        }
+        main img{
+            height:500px;
+            width:500px;
+        }
+        .text{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+    
+        }     
+        .text p{
+            inline-size: 300px;
+            display: inline-block;
+        }
+        a{
+            text-decoration: none;
+        }
+        footer{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        footer a{
+            color:rgb(22, 21, 21);
+        }
+
+        @media only screen and (max-width: 768px) {
+            body{
+                font-size: small;
+            }
+            main img{
+                height:200px;
+                width:200px;
+            }
+            main{
+                display: flex;
+                flex-direction: column;
+            }
+          }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+    <nav>
+        <h4>404 NOT FOUND</h4>
+    </nav>
+    <main>
+        <img src="pics/Scarecrow.png" alt="scarecrow">
+        <div class="text">
+            <h1>I have bad news for you</h1>
+            <p>The page you are looking for might be removed or is temporarily unavailable</p>
+            <div><a  class="btn" href="">BACK TO HOMEPAGE</a></div>
+        </div>
+    </main>
+    <footer><a href="">Created by tatituta-devchallenges.io</a></footer>
+</div>
+</body>
+</html>
